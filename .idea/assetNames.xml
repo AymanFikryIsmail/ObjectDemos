@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="assetNames">
+    <option name="mapping">
+      <map>
+        <entry key="camera_ic_01-2" value="camera_ic_01_2" />
+        <entry key="rounded-1" value="rounded_1" />
+        <entry key="search_field_nr-1" value="search_field_nr_1" />
+        <entry key="search_ic-1" value="search_ic_1" />
+      </map>
+    </option>
+  </component>
+</project>

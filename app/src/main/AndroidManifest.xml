@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.socialdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:name=".MyAppClass"
+        android:allowBackup="true"
+        android:icon="@drawable/brain"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/brain"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.chat.ChatActivity"></activity>
+        <activity android:name=".ui.BaseActivity" />
+        <!--<activity android:name=".ui.chat.ChatActivity">-->
+            <activity android:name=".ui.promotion_list.PromotionListActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".utility.broadcast.NotificationReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.objects.NotificationReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ui.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DesignTestActivity" />
+        <activity
+            android:name=".ui.ItemsDesignActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
+
+        <activity android:name=".MainActivity" />
+
+        <service
+            android:name=".utility.notification.NotificationExtenderExample"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

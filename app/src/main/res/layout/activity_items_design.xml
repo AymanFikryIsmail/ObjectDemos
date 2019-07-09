@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ItemsDesignActivity">
+
+    <!--android:background="@drawable/jobbutton_background"-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/post_job"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/reminder_ic"
+        android:drawablePadding="20dp"
+        android:layout_gravity="center"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:layout_marginTop="16dp"
+        android:onClick="getLanguage"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/jobRV"
+        android:layout_margin="8dp"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

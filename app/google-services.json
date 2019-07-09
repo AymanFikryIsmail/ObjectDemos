@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "375910536004",
+    "firebase_url": "https://social-demo-245412.firebaseio.com",
+    "project_id": "social-demo-245412",
+    "storage_bucket": "social-demo-245412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375910536004:android:f1dabf26eeffcdba",
+        "android_client_info": {
+          "package_name": "com.example.socialdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375910536004-2025ito3n7t08200rfvpaqj7skqonq4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDGQAdtZDPGNMa6BeLKUrmtVAB9b2i8vI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375910536004-2025ito3n7t08200rfvpaqj7skqonq4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

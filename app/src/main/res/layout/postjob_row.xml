@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <data>
+
+        <variable
+            name="viewholder"
+            type="com.example.socialdemo.ui.promotion_list.PromotionListActivity" />
+        <variable
+            name="promotionpojo"
+            type="com.example.socialdemo.data.model.PromotionPojo" />
+    </data>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contract"
+            android:text="@{`promotion : ` + promotionpojo.name}"
+            android:typeface='@{"generalFont"}'
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:fontFamily="@font/poppins_semibold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_13july_2019_2_30am"
+            android:layout_marginTop="5dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:layout_toEndOf="@+id/contract"
+            />
+
+    </RelativeLayout>
+        <!--app:placeholder="@{@drawable/brain}"-->
+        <ImageView
+            android:id="@+id/ivProfileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="9dp"
+            android:adjustViewBounds="true"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:onClick="@{() -> viewholder.press(promotionpojo)}"
+            app:profileImage="@{promotionpojo.image}"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="10dp"
+                android:text="@string/_30_hour_week_more_than_6_months"
+                android:textStyle="bold"
+                android:background="@color/darkturquoise"
+                />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#9C25B3"
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/proposal"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 11"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#D2B2D8"
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/messages"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 11"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#D2B2D8"
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hired"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 7"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

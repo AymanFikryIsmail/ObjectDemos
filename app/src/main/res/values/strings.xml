@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SocialDemo</string>
+    <string name="facebook_app_id">423498211838895</string>
+    <string name="share">Share</string>
+    <string name="sharebtn">share on face </string>
+    <string name="Facebook">Facebook</string>
+    <string name="product">product</string>
+    <string name="example">get identical</string>
+    <string name="medicine_dep">Medicine Department</string>
+    <string name="more">More</string>
+    <string name="departments">Departments</string>
+    <string name="post_job">Post a job</string>
+    <string name="contract_for_job_ios_developer">Contract for job: ios developer</string>
+    <string name="_13july_2019_2_30am">13july 2019|2.30am</string>
+    <string name="_30_hour_week_more_than_6_months">30+ hour /week more than 6 months</string>
+    <string name="proposal">proposal</string>
+    <string name="messages">messages</string>
+    <string name="hired">hired</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!--// 423498211838895  2010438729262025-->
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SocialDemo</string>
+    <string name="facebook_app_id">423498211838895</string>
+    <string name="share">Share</string>
+    <string name="sharebtn">share on face </string>
+    <string name="Facebook">Facebook</string>
+    <string name="product">الروشتة أو المنتج</string>
+    <string name="example">العثور على مثيل</string>
+    <string name="medicine_dep">قسم الدواء</string>
+    <string name="more">المزيد</string>
+    <string name="departments">الاقسام</string>
+    <string name="post_job">انشر وظيفه</string>
+    <string name="contract_for_job_ios_developer">عقد لوظيفه مبرمج ايفون</string>
+    <string name="_13july_2019_2_30am">13 يونيو20119</string>
+    <string name="_30_hour_week_more_than_6_months">30 ساعه فالشهر اقل حاجه </string>
+    <string name="proposal">البروبوزال</string>
+    <string name="messages">الرسائل</string>
+    <string name="hired">المقبولين</string>
+
+
+</resources>
